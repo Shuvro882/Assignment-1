@@ -28,6 +28,12 @@
     
 }
 
+
+
+.text{
+    text-align: center;
+}
+
 /* header */
 .heade{
     background-image: url('../images/Hero-bg.png');
@@ -141,13 +147,13 @@ nav ul li{
     border-radius:24px ;
     padding: 50px 140px;
     margin-top: 120px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .joiend-items{
    display: flex;
    justify-content: space-around;
-   }
+}
 
 .item-title{
 font-size: 80px;
@@ -161,5 +167,40 @@ font-weight: 16px;
 color: rgba(0, 0, 0, 50%);
 }
 
+.users-container{
+    display: flex;
+    gap: 20px;
+}
+
+.avata{
+    border-radius: 50%;
+}
+
+.user-description{
+    font-size: 16px;
+
+}
+
+.user-title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.userse{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.dates{
+    color: rgb(190, 186, 186);
+}
+
+.user{
+    padding: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0,  0.06);
+    height: 240px;
+    width: 360px;
+}
 
 
