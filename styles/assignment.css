@@ -190,6 +190,7 @@ color: rgba(0, 0, 0, 50%);
     display: flex;
     gap: 5px;
     align-items: center;
+    margin-top: 137px;
 }
 
 .dates{
@@ -203,4 +204,60 @@ color: rgba(0, 0, 0, 50%);
     width: 360px;
 }
 
+.bigg{
+    
+    border-radius:50px ;
+    padding: 20px;
+}
 
+.focus{
+    text-align: center;
+    align-items: center;
+    margin-top: 137px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0,  0.06);
+
+}
+
+.focusing{
+    margin: 71px;
+}
+
+.ready{
+    padding-top: 71px;
+}
+
+/* touch column */
+.touching{
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+}
+
+.gettings{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.hhh{
+    font-size: 18px;
+}
+
+/* footes */
+.footers-logo{
+    font-size: 100px;
+    color: #4E47FF;
+}
+.last{
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.last-items{
+    display: flex;
+    gap: 20px;
+    color: rgb(197, 193, 193);
+    
+}
