@@ -167,6 +167,37 @@ font-weight: 16px;
 color: rgba(0, 0, 0, 50%);
 }
 
+
+/* hoover button */
+.button-container {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Button style */
+.main-button {
+  background-color: #4a3aff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.main-button:hover {
+  background-color: #372bdc;
+  transform: scale(1.05);
+}
+
+
+
+
+/* what our users says */
+
 .users-container{
     display: flex;
     gap: 20px;
@@ -190,18 +221,23 @@ color: rgba(0, 0, 0, 50%);
     display: flex;
     gap: 5px;
     align-items: center;
-    margin-top: 137px;
+}
+
+.user-name{
+    color: #757575;
 }
 
 .dates{
     color: rgb(190, 186, 186);
 }
 
+
 .user{
     padding: 24px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0,  0.06);
-    height: 240px;
-    width: 360px;
+    height: 245px;
+    width: 370px;
+    border-radius: 14px;
 }
 
 .bigg{
@@ -226,7 +262,7 @@ color: rgba(0, 0, 0, 50%);
     padding-top: 71px;
 }
 
-/* touch column */
+/* form column */
 .touching{
     display: flex;
     justify-content: space-between;
